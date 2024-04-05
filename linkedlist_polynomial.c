@@ -11,7 +11,7 @@ struct node
 typedef struct node Node;
 Node* insert_term(Node *head,float c,int e)
 {
-	//create a node
+	//create a node 
 	Node *newNode=(Node *)malloc(sizeof(Node));
 	newNode->coeff=c;
 	newNode->expo=e;
