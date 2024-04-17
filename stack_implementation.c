@@ -1,18 +1,4 @@
-#include<stdio.h>
-int main()
-{
-	{
-    int n,i;
-	scanf("%d",&n);
-	int a[n];
-	for(i=0;i<n;i++)
-	{
-		printf("%d",i);
-	} 
-	}
-}
-
-/*//stack_implementation
+//stack_implementation
 #include<stdio.h>
 int st[10001];  //global variable
 int size;  //global variable
@@ -88,4 +74,4 @@ int main()
 			break;
 		}
 	}
-}*/
+}
